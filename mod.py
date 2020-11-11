@@ -13,6 +13,6 @@ def linear_congruence(a, b, m):
     return (m * linear_congruence(m, -b, a) + b) // a
 
 a = 1
-b = 29**43
-n = 64
+b = 2**58
+n = 457
 print(linear_congruence(a,b,n))

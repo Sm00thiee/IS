@@ -16,7 +16,7 @@ for e in range(2,t):
     if gcd(e,t)== 1: 
         break
   
-  
+
 for i in range(1,10): 
     x = 1 + i*t 
     if x % e == 0: 
